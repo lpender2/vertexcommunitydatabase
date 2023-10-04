@@ -41,6 +41,9 @@ app.get("/emotionalheath",(req, res)=>{
 app.get("/substanceAbuse",(req, res)=>{
     res.json({ return: database.substanceAbuse });
 });
+app.get("/allResources",(req, res)=>{
+    res.json({ return: database });
+});
 
 var database = {
     "hungerresources": [{"type": "foodbank", "name":"CES Food Shelf", "address":"1900 11th Ave S, Minneapolis, MN 55404", "latitude": "44.9637589", "longitude": "-93.2946103"}, {"type": "foodbank", "name":"House of Charity - Food Distribution Center", "address":"1900 11th Ave S, Minneapolis, MN 55404", "latitude": "44.9637589", "longitude": "-93.2946103"}],
