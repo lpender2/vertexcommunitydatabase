@@ -46,7 +46,7 @@ app.get("/allResources",(req, res)=>{
 });
 
 var database = {
-    "Hunger Resources": [{"type": "foodbank", "name":"CES Food Shelf", "address":"1900 11th Ave S, Minneapolis, MN 55404", "latitude": "44.9637589", "longitude": "-93.2946103"}, {"type": "foodbank", "name":"House of Charity - Food Distribution Center", "address":"1900 11th Ave S, Minneapolis, MN 55404", "latitude": "44.9637589", "longitude": "-93.2946103"}],
+    "Hunger Resources": [{"type": "foodbank", "name":"CES Food Shelf", "address":"1900 11th Ave S, Minneapolis, MN 55404", "description": "This is a test description", "latitude": "44.9637589", "longitude": "-93.2946103"}, {"type": "foodbank", "name":"House of Charity - Food Distribution Center", "address":"1900 11th Ave S, Minneapolis, MN 55404", "latitude": "44.9637589", "longitude": "-93.2946103"}],
     "Housing Resources": [{"type": "shelter", "name":"People Serving People", "address":"614 S 3rd St, Minneapolis, MN 55415", "latitude": "44.9723078", "longitude": "-93.2629557"}],
     "Transporation Resources": [{"type": "transportation", "name":"Metro Transit Office", "address":"560 N 6th Ave, Minneapolis, MN 55411", "latitude": "44.9722366", "longitude": "-93.3070289"}],
     "Intrapersonal Help": [{"type": "safety", "name": "Cynthia Van Hoof","address":"150 S 5th St STE 825, Minneapolis, MN 554024200", "latitude": "44.9734019", "longitude": "-93.2906789"}],
